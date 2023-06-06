@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sample Page</title>
+</head>
+<body>
+  <header>
+    <nav class=" bg-green-500 p-3 px-4 flex items-center">
+      <a href="#" class="text-lg m-2 px-5">Flower</a>
+      <ul class="flex items-center">
+        <li><a href="#" class="pr-4 text-lg hover:text-purple-300 ">Home</a></li>
+        <li> <button data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="pr-4 text-lg hover:purple-300  flex items-center"> <span> Shop</span> </button></li>
+        <li><a href="#" class="px-3 text-lg hover:text-purple-300">About</a></li>
+        <li> <a href="#"class="pr-4 text-lg hover:text-purple-300">Blog</a></li>
+        <li> <a href="#"class="pr-4 text-lg hover:text-purple-300">Contact</a></li>
+        <li><a href="#"class="pr-4 text-lg hover:text-purple-300">Pages</a></li>
+      </ul>
+      <div class="mx-4 my-6 md:my-0 ml-60 flex">
+        <a href="#" class="text-lg hover:text-purple-300  ">LOGIN/SIGNUP</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="grid-rows-1 mx-auto  max-w-full">
+      <div class="grid-cols-3  p-28 space-y-2  lg:space-y-0 lg:grid lg:gap-1 lg:grid-rows-2 h-min w-full">
+        <div class="row-span-2">         
+          <img src="https://i.pinimg.com/564x/6c/67/51/6c6751126d542b2271ee4281e0dcbdc2.jpg" alt="image" class="resize-y rounded-md  max-h-[600px] w-screen">  
+        </div> 
+  
+        <div class=" col-span-2">
+          <img src="https://i.pinimg.com/564x/45/94/38/459438635ff2e97b6f3a0f6a7c899fca.jpg" alt="image" class="resize-y rounded-md max-h-[325px] w-full"> 
+        </div>  
+        
+        <div class="col-span-1 md:col-span-5 lg:col-span-1 ">
+          <img src="https://i.pinimg.com/564x/85/36/5f/85365f3e4ff7cc60c4dde9629ce84142.jpg" alt="image" class="resize-y rounded-md max-h-[270px] w-screen">  
+        </div>
+
+        <div class="col-span-1 md:col-span-5 lg:col-span-1 hover">
+          <img src="https://i.pinimg.com/564x/06/73/08/06730859ea9d43327d08a6e1241a48de.jpg" alt="image" class="resize-y rounded-md max-h-[270px] w-screen">  
+        </div>
+      </div>
+    </div>
+  </main>
+    
+      
+</body>
+</html>
